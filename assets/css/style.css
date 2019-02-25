@@ -1,0 +1,180 @@
+
+html,
+body {
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+    background-color: #FFEBED;
+    background-image: url("dynamic-style.png");
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+    padding: 15px;
+    background-color: rgb(247, 247, 247);
+}
+
+.navi {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.navtext {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    color: #777777;
+    transition: .25s;
+}
+
+.nav__link:hover {
+    font-size: 28px;
+    transition: .25s;
+}
+
+header {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color:#ffffff;
+    margin-bottom: 30px;
+    color:#4aaaa5;
+}
+
+.logo {
+    float: left;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #777777;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,
+a {
+    line-height: 34px;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#zshw {
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+#bio a {
+    color: #777777;
+    text-decoration: none;
+    transition: .25s;
+}
+
+#bio a:hover {
+    color: #ffffff;
+    transition: .25s;
+}
+
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+#myportfolio figure a img {
+    width: 100%;
+    height: auto;
+}
+
+figure:hover {
+    transform: scale(1.25);
+    transition: .25s;
+}
+
+figure {
+    position: relative;
+    transition: .25s
+}
+
+figcaption {
+    margin-top: -30%;
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+    background-color: #555555;
+    color: #FFEBED;
+    text-decoration: none;
+    position: absolute;
+    opacity: .8;
+}
+
+input,
+textarea {
+    width: 95%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1.5px solid #222222;
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 200px;
+}
+
+button[type="submit"] {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    color: #444444;
+    background: none;
+    font-size: 20px;
+    border: 1.5px solid #ffffff;
+    transition: .25s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #444444;
+    transition: .25s;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: #666666;
+    color: #777777;
+
+}
+
+.foot,
+footer {
+    height: 50px;
+}
