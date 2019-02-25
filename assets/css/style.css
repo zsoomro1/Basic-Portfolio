@@ -89,10 +89,19 @@ a {
     transition: .25s;
 }
 
-#bio a:hover {
-    color: #ffffff;
-    transition: .25s;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #portfolio {
     display: grid;
@@ -104,6 +113,7 @@ a {
     width: 100%;
     height: auto;
 }
+
 
 
 
@@ -120,7 +130,7 @@ figcaption {
     background-color: #555555;
     color: #FFEBED;
     text-decoration: none;
-    position: relative;
+    position: absolute;
     opacity: .8;
 }
 
@@ -158,17 +168,19 @@ button[type="submit"]:hover {
     transition: .25s;
 }
 
-footer {
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    background-color: #666666;
-    color: #777777;
 
-}
 
-.foot,
-footer {
-    height: 50px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
