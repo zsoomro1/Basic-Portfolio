@@ -12,7 +12,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     min-height: 100%;
-    margin-bottom: -50px;
+    margin-bottom: 100px;
     padding: 15px;
     background-color: rgb(247, 247, 247);
 }
@@ -39,10 +39,7 @@ nav a {
     transition: .25s;
 }
 
-.nav__link:hover {
-    font-size: 28px;
-    transition: .25s;
-}
+
 
 header {
     width: 100%;
@@ -54,7 +51,7 @@ header {
 }
 
 .logo {
-    float: left;
+    float: left;    
 }
 
 h1 {
@@ -108,10 +105,7 @@ a {
     height: auto;
 }
 
-figure:hover {
-    transform: scale(1.25);
-    transition: .25s;
-}
+
 
 figure {
     position: relative;
@@ -126,7 +120,7 @@ figcaption {
     background-color: #555555;
     color: #FFEBED;
     text-decoration: none;
-    position: absolute;
+    position: relative;
     opacity: .8;
 }
 
@@ -135,7 +129,7 @@ textarea {
     width: 95%;
     margin-bottom: 30px;
     border-radius: 5px;
-    border: 1.5px solid #222222;
+    border: 1.5px solid #888888;
     font-size: 20px;
 }
 
@@ -160,7 +154,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #ffffff;
-    color: #444444;
+    color: #333333;
     transition: .25s;
 }
 
